@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-23T02:43:27.763Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="uAJMpfl5t6J5iuhoh7ot" version="17.1.3" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-03-23T05:34:31.851Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="y02fUnwS6i_jGejfWIp_" version="17.1.3" type="github" pages="12">
   <diagram id="suCssXCztc-TALjXuxgK" name="chu add cell flow">
     <mxGraphModel dx="1420" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -2991,6 +2991,50 @@
         </mxCell>
         <mxCell id="6GB_xwI8fs4-I5gR7gT4-63" value="无名(segment part3)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontFamily=Comic Sans MS;" vertex="1" parent="BgGvczCaQZZuXBIZs352-1">
           <mxGeometry x="780" y="495" width="190" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ujHmtR4EZAJVEkmTqm0D" name="program segment">
+    <mxGraphModel dx="1420" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="zCvx0vyUgot40XEZX08A-0" />
+        <mxCell id="zCvx0vyUgot40XEZX08A-1" parent="zCvx0vyUgot40XEZX08A-0" />
+        <mxCell id="zCvx0vyUgot40XEZX08A-2" value="Other data" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="zCvx0vyUgot40XEZX08A-1">
+          <mxGeometry x="120" y="90" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zCvx0vyUgot40XEZX08A-3" value=".comment" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="zCvx0vyUgot40XEZX08A-1">
+          <mxGeometry x="120" y="150" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zCvx0vyUgot40XEZX08A-4" value=".rodata" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="zCvx0vyUgot40XEZX08A-1">
+          <mxGeometry x="120" y="210" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zCvx0vyUgot40XEZX08A-5" value=".text" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="zCvx0vyUgot40XEZX08A-1">
+          <mxGeometry x="120" y="390" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zCvx0vyUgot40XEZX08A-6" value=".bss" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="zCvx0vyUgot40XEZX08A-1">
+          <mxGeometry x="120" y="270" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zCvx0vyUgot40XEZX08A-7" value="未初始化的全局变量和局部静态变量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontFamily=Comic Sans MS;" vertex="1" parent="zCvx0vyUgot40XEZX08A-1">
+          <mxGeometry x="344" y="285" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zCvx0vyUgot40XEZX08A-8" value="只读段，存放只读变量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontFamily=Comic Sans MS;" vertex="1" parent="zCvx0vyUgot40XEZX08A-1">
+          <mxGeometry x="340" y="225" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zCvx0vyUgot40XEZX08A-9" value="存放编译器版本信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontFamily=Comic Sans MS;" vertex="1" parent="zCvx0vyUgot40XEZX08A-1">
+          <mxGeometry x="344" y="165" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zCvx0vyUgot40XEZX08A-10" value=".data" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="zCvx0vyUgot40XEZX08A-1">
+          <mxGeometry x="120" y="330" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zCvx0vyUgot40XEZX08A-11" value="ELF Header" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="zCvx0vyUgot40XEZX08A-1">
+          <mxGeometry x="120" y="450" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zCvx0vyUgot40XEZX08A-13" value="初始化了的全局静态变量和局部静态变量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontFamily=Comic Sans MS;" vertex="1" parent="zCvx0vyUgot40XEZX08A-1">
+          <mxGeometry x="340" y="345" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zCvx0vyUgot40XEZX08A-14" value="代码段" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontFamily=Comic Sans MS;" vertex="1" parent="zCvx0vyUgot40XEZX08A-1">
+          <mxGeometry x="344" y="405" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
