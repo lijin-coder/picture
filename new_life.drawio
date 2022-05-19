@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-18T07:15:30.092Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="vxOMgA_ukCqgRzkXDely" version="18.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-19T05:42:58.862Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="BfXb7jvgmguFqhTN2Vhz" version="18.0.1" type="github" pages="2">
   <diagram id="USedQUPOG1Q_Q1w7zDXR" name="computer1_cost">
-    <mxGraphModel dx="3409" dy="1398" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2247" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -66,6 +66,53 @@
         </mxCell>
         <mxCell id="Qq6zlb6d90X0G2Wcuyws-25" value="vedio" style="rounded=1;whiteSpace=wrap;html=1;fontSize=23;fontFamily=Comic Sans MS;" parent="1" vertex="1">
           <mxGeometry x="827" y="50" width="210" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="QBmqgffvfCsbS3j4SQ_6" name="python mr test">
+    <mxGraphModel dx="1420" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t2B-JRpsiO3wibogoGJe-1" value="mr_test.exe" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="254" y="90" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t2B-JRpsiO3wibogoGJe-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=16;" edge="1" parent="1" source="t2B-JRpsiO3wibogoGJe-2" target="t2B-JRpsiO3wibogoGJe-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t2B-JRpsiO3wibogoGJe-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=16;" edge="1" parent="1" source="t2B-JRpsiO3wibogoGJe-2" target="t2B-JRpsiO3wibogoGJe-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t2B-JRpsiO3wibogoGJe-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=16;" edge="1" parent="1" source="t2B-JRpsiO3wibogoGJe-2" target="t2B-JRpsiO3wibogoGJe-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t2B-JRpsiO3wibogoGJe-2" value="source" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="254" y="200" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t2B-JRpsiO3wibogoGJe-3" value="可执行程序" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="420" y="100" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t2B-JRpsiO3wibogoGJe-4" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontFamily=Comic Sans MS;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="220" y="90" width="20" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="t2B-JRpsiO3wibogoGJe-5" value="conf.xml" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="460" y="200" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t2B-JRpsiO3wibogoGJe-6" value="配置文件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="630" y="205" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t2B-JRpsiO3wibogoGJe-9" value="LTE数字蜂窝移动通信网无线操作维护中心（OMC-R）测量报告测试要求表格-V2.1.0" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="460" y="250" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="t2B-JRpsiO3wibogoGJe-10" value="测量报告" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="660" y="300" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t2B-JRpsiO3wibogoGJe-11" value="mr()_schema.xsd" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="460" y="390" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t2B-JRpsiO3wibogoGJe-12" value="mro等xml格式文件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="630" y="395" width="150" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
