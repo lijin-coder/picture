@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-19T05:42:58.862Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="BfXb7jvgmguFqhTN2Vhz" version="18.0.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-19T05:47:56.576Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="9j6xJ_zn3J041SrUTS77" version="18.0.1" type="github" pages="2">
   <diagram id="USedQUPOG1Q_Q1w7zDXR" name="computer1_cost">
     <mxGraphModel dx="2247" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -94,7 +94,7 @@
           <mxGeometry x="420" y="100" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="t2B-JRpsiO3wibogoGJe-4" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontFamily=Comic Sans MS;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="220" y="90" width="20" height="150" as="geometry" />
+          <mxGeometry x="220" y="90" width="20" height="470" as="geometry" />
         </mxCell>
         <mxCell id="t2B-JRpsiO3wibogoGJe-5" value="conf.xml" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="460" y="200" width="150" height="30" as="geometry" />
@@ -113,6 +113,12 @@
         </mxCell>
         <mxCell id="t2B-JRpsiO3wibogoGJe-12" value="mro等xml格式文件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="630" y="395" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t2B-JRpsiO3wibogoGJe-18" value="mr" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="260" y="520" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t2B-JRpsiO3wibogoGJe-19" value="存放mro,mre,mrs的文件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="430" y="530" width="190" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
