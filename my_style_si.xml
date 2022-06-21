@@ -142,7 +142,12 @@
 			TextColor="#ff8040"
 			ParentStyle="Declaration"
 			/>
-		<Style Name="Ref to Parameter" Bold="1" ParentStyle="Ref To Local" />
+		<Style
+			Name="Ref to Parameter"
+			ParentStyle="Ref To Local"
+			Bold="0"
+			TextColor="#101010"
+			/>
 		<Style Name="Declare Template" ParentStyle="Declare Function" />
 		<Style Name="Declare Package" ParentStyle="Declaration" />
 		<Style Name="Ref to Template" ParentStyle="Reference" />
@@ -158,10 +163,10 @@
 		<Style Name="Ref to Namespace" ParentStyle="Reference" />
 		<Style
 			Name="Declare Local"
+			ParentStyle="Declaration"
 			FontSizeQps="44"
 			Underline="None"
 			TextColor="#191970"
-			ParentStyle="Declaration"
 			/>
 		<Style
 			Name="Declare Member"
