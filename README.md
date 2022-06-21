@@ -1,4 +1,4 @@
 # picture
 a picture repository
 
-si_style.png
+![image](si_style.png)
