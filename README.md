@@ -1,4 +1,4 @@
 # picture
 a picture repository
 
-./si_style.png
+si_style.png
